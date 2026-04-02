@@ -203,21 +203,21 @@ nav a:hover {
 /* HERO MODEL FIX */
 .hero-model {
     position: relative;
-    min-height: 58rem;
+    min-height: 52rem;
     z-index: 1;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .computer-3d {
     position: absolute;
-    right: -14%;
-    bottom: -7rem;
-    width: 128%;
-    height: 128%;
-    min-height: 58rem;
+    right: -25%;
+    bottom: -2rem;
+    width: 110%;
+    height: 110%;
+    min-height: 52rem;
     z-index: 1;
     pointer-events: none;
-    transform: scale(1.22);
+    transform: scale(1);
     transform-origin: bottom center;
 }
 
